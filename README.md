@@ -6,6 +6,7 @@
 ### MHN-Admin Deployment (Required)
 
 **Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
+
 I delopyed MHN-Admin using the Google Cloud Platform by installing GCP, setting the central project, its region and zone, setting up firewalls, and then creating the MHN-Admin VM with gcloud compute ssh mhn-admin.
 
 <img src="mhn-admin.gif">
@@ -13,6 +14,7 @@ I delopyed MHN-Admin using the Google Cloud Platform by installing GCP, setting 
 ### Dionaea Honeypot Deployment (Required)
 
 **Summary:** Briefly in your own words, what does dionaea do?
+
 Dionaea is a honeypot that attracts hackers through its services and traps the malware samples.
 
 <img src="dionaea-honeypot.gif">
@@ -20,6 +22,7 @@ Dionaea is a honeypot that attracts hackers through its services and traps the m
 ### Database Backup (Required) 
 
 **Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
+
 MHN-Admin uses MongoDB and the JSON file records the data collected from the Dionaea honeypot.
 
 
